@@ -423,9 +423,11 @@ export default {
       {
             label: "ACL4SSR_WithGFW 本地 GFW列表",
             value: "config/ACL4SSR_WithGFW.ini"
-      }
-    ]
-  },
+              }
+            ]
+          }
+        ]
+      },
       form: {
         sourceSubUrl: "",
         clientType: "",
