@@ -426,7 +426,7 @@ export default {
     };
   },
   created() {
-    document.title = "Subscription Converter";
+    document.title = "Subscripon Converter";
     this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
