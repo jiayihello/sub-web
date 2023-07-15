@@ -38,7 +38,6 @@
                     :fetch-suggestions="backendSearch"
                     placeholder="动动小手，（建议）自行搭建后端服务。例：http://127.0.0.1:25500/sub?"
                   >
-                    <el-button slot="append" @click="gotoGayhub" icon="el-icon-link">前往项目仓库</el-button>
                   </el-autocomplete>
                 </el-form-item>
                 <el-form-item label="远程配置:">
@@ -296,7 +295,18 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [
+  { value: "https://oksubconver-jiayihello.cloud.okteto.net/sub?" },
+  { value: "http://api.tsutsu.cc:520/sub?" },
+  { value: "https://api2.tsutsu.cc/sub?" },
+  { value: "https://api.v1.mk/sub?" },
+  { value: "https://subcon.dlj.tf/sub?" },
+  { value: "https://api.dler.io/sub?" },
+  { value: "https://api.wcc.best/sub?" },
+  { value: "https://api.hope140.live/sub?" },
+  { value: "https://sub.proxypoolv2.tk/sub?" },
+  { value: "https://sub.id9.cc/sub?" },
+],
         remoteConfig: [
           {
             label: "universal",
